@@ -1,3 +1,7 @@
+- = 0xc000000007b Hatası Çözümü = -
+
+https://drive.google.com/uc?id=0B0h-NHKRYdb3cHRDQzlXMzNpNGc&export=download
+
 ----------------------------------------
 
 - = Crash Sorunu ?= -
