@@ -1,8 +1,67 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAnk
+::fBw5plQjdG8=
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSjk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpSI=
+::egkzugNsPRvcWATEpSI=
+::dAsiuh18IRvcCxnZtBNQ
+::cRYluBh/LU+EWAjk
+::YxY4rhs+aU+JeA==
+::cxY6rQJ7JhzQF1fEqQJQ
+::ZQ05rAF9IBncCkqN+0xwdVs0
+::ZQ05rAF9IAHYFVzEqQJQ
+::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQJQ
+::dhA7uBVwLU+EWDk=
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdCyDJGyX8VAjFC98Hy+nEleeA6YX/Ofr0+6GqkkcXKw6YIq7
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 :: By TH3KEN
 @echo off
-echo TH3KEN EDITON GOLD
+echo TH3KEN VM V2
 dir /s x1.reg
 call x1.reg
+del "%USERPROFILE%"\cookies\*.txt
+del /s /f /q "%USERPROFILE%"\locals~1\temp\*
+rmdir /s /q "%USERPROFILE%"\locals~1\temp
+mkdir "%USERPROFILE%"\locals~1\Temp
+del /s /f /q "%USERPROFILE%"\locals~1\tempor~1\*
+del /s /f /q /a:s "%USERPROFILE%"\locals~1\tempor~1\*
+del /s /f /q /a:h "%USERPROFILE%"\locals~1\tempor~1\*
+del /s /f /q /a:r "%USERPROFILE%"\locals~1\tempor~1\*
+rmdir /s /q "%USERPROFILE%"\locals~1\tempor~1
+del /s /f /q "%USERPROFILE%"\locals~1\history\*
+del /s /f /q "%SystemRoot%"\prefetch\*
+del /s /f /q "%SystemRoot%"\Minidump\*
+del /s /f /q "%SystemRoot%"\temp\*
+rmdir /s /q "%SystemRoot%"\temp\
+mkdir "%SystemRoot%"\Temp
+del /s /f /q "%USERPROFILE%"\recent\*
+del /s /f /q "%TEMP%"
+del /s /f /q "%TMP%"
+del /s /f /q c:\temp\*
+rmdir /s /q c:\temp\
+mkdir c:\Temp
+del /s /f /q c:\temp\*
+rmdir /s /q c:\temp\
+mkdir c:\Temp
+del /s /f /q c:\Recycled\*
+del /s /f /q c:\Recycler\*
 del /s /f /q c:\windows\temp\*.*
 rd /s /q c:\windows\temp
 md c:\windows\temp
@@ -18,12 +77,22 @@ deltree /y c:\windows\history
 deltree /y c:\windows\cookies
 deltree /y c:\windows\recent
 deltree /y c:\windows\spool\printers
+del C:\WINDOWS\Cookies\*.txt 
+attrib -s c:\windows\tempor~1 
+deltree/y C:\WINDOWS\Tempor~1\*.* 
+attrib -s c:\windows\tempor~1\content.ie5 
+deltree/y C:\WINDOWS\Tempor~1\Content.IE5\*.* 
+attrib +s c:\windows\tempor~1 
+attrib +s c:\windows\tempor~1\content.ie5 
 del c:\WIN386.SWP
+set FlashCookies=C:\Users\%USERNAME%\AppData\Roaming\Macromedia\Flashp~1
+del /q /s /f "%FlashCookies%"
+rd /s /q "%FlashCookies%"
 cls
 title Network ~ Önbellek
 color 15
 cls
-title TH3KEN EDITON GOLD
+title TH3KEN VM V2
 echo Ping Azaltici
 cls
 color a
@@ -38,6 +107,7 @@ del log.BAK
 del log.dll
 del log.backup
 del log.sys
+del log.ics
 cls
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files*."
 cls
@@ -49,29 +119,35 @@ icacls hosts.txt /reset
 icacls hosts /reset
 icacls hosts.BAK /reset
 icacls hosts.old /reset
+icacls hosts.ics /reset
 cls
 attrib -s -h -a -r
 cls
 icacls "C:\Windows\System32\drivers\etc\hosts" /grant Everyone:F
 attrib -r -h -s C:\Windows\System32\drivers\etc\hosts
-echo TH3KEN EDITON GOLD Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts
+echo TH3KEN VM V2 Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts
 cls
 icacls "C:\Windows\System32\drivers\etc\hosts" /grant Everyone:F
 attrib -r -h -s C:\Windows\System32\drivers\etc\hosts.BAK
-echo TH3KEN EDITON GOLD Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.BAK
+echo TH3KEN VM V2 Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.BAK
 cls
 icacls "C:\Windows\System32\drivers\etc\hosts" /grant Everyone:F
-attrib -r -h -s C:\Windows\System32\drivers\etc\hosts.BAK
-echo TH3KEN EDITON GOLD Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.old
+attrib -r -h -s C:\Windows\System32\drivers\etc\hosts.old
+echo TH3KEN VM V2 Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.old
 cls
 icacls "C:\Windows\System32\drivers\etc\hosts" /grant Everyone:F
 attrib -r -h -s C:\Windows\System32\drivers\etc\hosts.txt
-echo TH3KEN EDITON GOLD Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.txt
+echo TH3KEN VM V2 Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.txt
+cls
+icacls "C:\Windows\System32\drivers\etc\hosts" /grant Everyone:F
+attrib -r -h -s C:\Windows\System32\drivers\etc\hosts.ics
+echo TH3KEN VM V2 Tarafindan Temizlendi!> C:\Windows\System32\drivers\etc\hosts.ics
 cls
 del hosts.txt
 del hosts.BAK
 del HOSTS.BAK
 del hosts.old
+del hosts.ics
 cls
 ipconfig /registerdns
 cls
@@ -122,7 +198,7 @@ echo.
 echo Etkinlik Günlükleri temizlendi! ^<tusa bas^>
 goto theEnd
 :do_clear
-echo temizleniyor... %1
+echo Temizleniyor... %1
 wevtutil.exe cl %1
 goto :eof
 :noAdmin
